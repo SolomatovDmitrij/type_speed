@@ -1,6 +1,7 @@
 {
   "name": "test_print2",
   "version": "0.1.0",
+  "homepage": "http://147.78.66.199/type_speed",
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.10.2",
