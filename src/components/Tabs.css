@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgba(0,0,0,1);
+} 
+.navbar_button {
+    background-color: rgba(0,0,0,1);
+    color: white;
+    font-size: 2rem;
+    padding: 10px 40px;
+    text-shadow: none;
+}
+
+.navbar_button {
+    animation-duration: 3s;
+    animation-name: head_light_animation;
+}
+
+@keyframes head_light_animation {
+    from {
+        text-shadow: -30px 0px 2rem white, -30px 0px 2.5rem white, -30px 0px 2rem white;
+    }
+
+    to {
+        text-shadow: 30px 0px 1rem white, 30px 0px 1.5rem white, 30px 0px 2rem white;
+    }
+}
+
+.page {
+    background-color: gray;
+}
+
+.navbar_button:hover {
+    text-shadow: 0px 0px 1rem white, 0px 0px 1.5rem white, 0px 0px 2rem white;
+}

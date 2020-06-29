@@ -1,0 +1,34 @@
+.text_print {
+    background-color: silver;
+}
+.orange_style {
+    background-color: orange;
+    color: white;
+}
+
+.black_style {
+    background-color: black;
+    color: white;
+}
+
+.gray_style {
+    background-color: silver;
+    color: black;
+}
+#text1 {
+    font-size: 0.6em;    
+    line-height: normal;
+    font-style: italic;
+}
+
+@keyframes error1 {
+    0%   {background-color: silver;}
+    50%  {background-color: red;}
+    100% {background-color: silver;}
+}
+@keyframes error2 {
+    0%   {background-color: silver;}
+    50%  {background-color: red;}
+    100% {background-color: silver;}
+}
+
