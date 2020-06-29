@@ -15,7 +15,7 @@ function Login() {
         const { usernameInput, passwordInput } = event.target.elements
         setState({ resolved: false, loading: true, error: null })
         //вызывем метод fetch
-        window.fetch('http://192.168.0.210:3004/api/login', {
+        window.fetch('http://147.78.66.199/api/login', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(
