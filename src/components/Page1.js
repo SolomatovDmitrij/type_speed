@@ -29,7 +29,7 @@ function PrintedText(props) {
 function Page1() {
     async function get_data_from_backend() {
         //get data from backend
-        let result = await fetch('http://192.168.0.210:3004/text')
+        let result = await fetch('http://147.78.66.199:3004/text')
             .then((response)=>response.json())
             .then( text => {return {
                 text1: '',
@@ -118,7 +118,7 @@ function Page1() {
         }
     });
     function save_result_get(speed, error, text_id) {
-        axios.get('http://192.168.0.210:3004/save_result_get?speed=' + speed + '&error=' + error 
+        axios.get('http://147.78.66.199:3004/save_result_get?speed=' + speed + '&error=' + error 
             + '&user_id=' + user.id + '&text_id=' + text_id );
     }
 

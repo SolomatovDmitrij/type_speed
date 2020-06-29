@@ -11,7 +11,7 @@ function Page2() {
         console.log(elem);
         const new_text = Array.from(elem.value).filter( char1 => correct_char_array.includes(char1)).join('');
 
-        const response = await fetch('http://192.168.0.210:3004/load_text',
+        const response = await fetch('http://147.78.66.199:3004/load_text',
             {
                 method: 'POST',
                 headers: {

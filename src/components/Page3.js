@@ -18,7 +18,7 @@ function Page3() {
             const COUNTRY_CODE = 'lb'
             const INDICATOR = 'DT.DOD.DECT.CD'
             const response = await fetch(
-                'http://192.168.0.210:3004/load_result',
+                'http://147.78.66.199:3004/load_result',
                 {
                     method: 'POST',
                     headers: {'Content-Type': 'Application/json'},
